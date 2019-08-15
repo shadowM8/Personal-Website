@@ -1,0 +1,179 @@
+@import url('./helper.css');
+
+html {
+  line-height: 1.15; 
+  -webkit-text-size-adjust: 100%; 
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  display: block;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  border-style: none;
+}
+
+li {
+  list-style: none;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+li.menu:hover, li.menu:active {
+  font-size: 120%;
+  cursor: pointer;
+}
+
+p {
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.myjumbo {
+  display: flex;
+  align-items: center;
+  height: 40%;
+  min-height: 300px;
+  background-color: #a0a0a0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../images/myjumbo.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.myjumbo-text {
+  color: #ffffff;
+}
+
+.myjumbo-image {
+  border: 1px solid white;
+  border-radius: 50%;
+  line-height: 25px;
+}
+
+.myjumbo-text h1 {
+  font-size: 48px;
+  font-variant: small-caps;
+  line-height: 1;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+
+.myjumbo-text h3 {
+  font-size: 24px;
+  font-variant: normal;
+  line-height: 1;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+.myjumbo-description {
+  font-size: 25px;
+}
+
+.mycard {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  box-shadow: 5px 5px 20px 0px #e0e0e0;
+  transition: box-shadow 0.15s ease-in-out;
+  -webkit-transition: box-shadow 0.15s ease-in-out;
+  -moz-transition: box-shadow 0.15s ease-in-out;
+  -ms-transition: box-shadow 0.15s ease-in-out;
+  -o-transition: box-shadow 0.15s ease-in-out;
+}
+
+.summary {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  font-size: 25px;
+  background-color: #f0f0f0;
+}
+
+.poster {
+  width: 200px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.footer-image {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 30px;
+  vertical-align: sub;
+}
+
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.half {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+  .half {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}

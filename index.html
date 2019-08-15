@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Submission Task</title>
+  <link type="text/css" href="/css/styles.css" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+  <div class="myjumbo">
+    <div class="container">
+      <div class="myjumbo-text text-center">
+          <h1> 
+              My Personal Information
+          </h1>
+        <div class="mt-15">
+            <img class="myjumbo-image"
+            src="/images/zenitsu.png"
+            alt="My Photo"
+          />
+        </div>
+        <h3>
+          Antonius Priguna Wibisono
+        </h3>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+      <div class="row">
+          <div class="half my-15">
+            <div class="mycard p-15">
+                    <p>
+                      <b>Menu</b> 
+                    </p>
+                    <ul>
+                      <li class="menu" onclick="changeContent(myProfile)"> My Profile </li>
+                      <li class="menu" onclick="changeContent(contact)"> Contact </li>
+                      <li class="menu" onclick="changeContent(about)"> About </li>
+                    </ul>
+            </div>
+        </div>
+        <div class="half my-15">
+          <div class="mycard p-15" >
+            <p>
+                <b id="title"></b>
+            </p>
+            <ul id="content">
+            </ul>
+          </div>  
+        </div>
+      </div>
+    </div>
+    <footer class="p-30">
+      <p class="text-center">
+          find me in <a href="https://github.com/shadowM8"><img class="footer-image" src="/images/github.png" alt="github"></a>
+      </p>
+    </footer>
+  
+  <script src="/js/script.js"></script>
+</body>
+</html>

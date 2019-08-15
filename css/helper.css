@@ -1,0 +1,144 @@
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+
+.m-15 {
+  margin: 15px;
+}
+
+.my-15 {
+  margin: 15px 0;
+}
+
+.mx-15 {
+  margin: 0 15px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-200 {
+  margin-top: 200px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.m-30 {
+  margin: 30px;
+}
+
+.my-30 {
+  margin: 30px 0;
+}
+
+.mx-30 {
+  margin: 0 30px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.ml-30 {
+  margin-left: 30px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.p-15 {
+  padding: 15px;
+}
+
+.py-15 {
+  padding: 15px 0;
+}
+
+.px-15 {
+  padding: 0 15px;
+}
+
+.pt-15 {
+  padding-top: 15px;
+}
+
+.pb-15 {
+  padding-bottom: 15px;
+}
+
+.pl-15 {
+  padding-left: 15px;
+}
+
+.pr-15 {
+  padding-right: 15px;
+}
+
+.p-30 {
+  padding: 30px;
+}
+
+.py-30 {
+  padding: 30px 0;
+}
+
+.px-30 {
+  padding: 0 30px;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.pl-30 {
+  padding-left: 30px;
+}
+
+.pr-30 {
+  padding-right: 30px;
+}
